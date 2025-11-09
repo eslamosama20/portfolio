@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asmaa El-Sayed - Graphic Designer & Founder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Asmaa El-Sayed</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">ASMAA EL-SAYED EID MOSELHY</h1>
+            <p class="hero-subtitle">GRAPHIC DESIGNER & FOUNDER</p>
+            <p class="hero-location"><i class="fas fa-map-marker-alt"></i> 10th of Ramadan City, Sharqia, Egypt</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="social-links">
+                <a href="tel:+201204643805"><i class="fas fa-phone"></i></a>
+                <a href="mailto:asmaasabik081@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/asmaa-sabik" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/asmaasabik" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">Creative and passionate Graphic Designer with extensive experience in designing visual identities, print and digital advertising.</p>
+                    <p>Founder of <strong>Clacket Advertising Agency</strong>, managing multiple projects from concept to final delivery. Skilled in understanding client needs and transforming ideas into visually compelling designs.</p>
+                    <p>Experienced in freelance work with local and international clients, delivering professional design solutions that combine creativity, aesthetics, and marketing objectives.</p>
+                </div>
+                <div class="skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Adobe Photoshop</span>
+                        <span class="skill-tag">Adobe Illustrator</span>
+                        <span class="skill-tag">CorelDRAW</span>
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">Print Preparation</span>
+                        <span class="skill-tag">Social Media Design</span>
+                        <span class="skill-tag">Brand Identity</span>
+                        <span class="skill-tag">Client Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <h3>Founder & Freelance Graphic Designer</h3>
+                        <h4>Clacket Advertising Agency</h4>
+                        <p class="timeline-date">2023 – Present | Ismailia, Egypt</p>
+                        <ul>
+                            <li>Managing and executing multiple design projects, including print and digital media</li>
+                            <li>Designing comprehensive visual identities for brands including logos, color schemes, typography</li>
+                            <li>Creating engaging social media content and advertising campaigns</li>
+                            <li>Direct client communication to gather requirements and ensure project objectives are met</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <h3>Diploma in Interior Design</h3>
+                        <h4>Egyptian Engineers Syndicate</h4>
+                        <p class="timeline-date">2023 | Egypt</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Fine Arts, Graphic Design</h3>
+                        <h4>Suez Canal University</h4>
+                        <p class="timeline-date">2019 – 2023 | Ismailia, Egypt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <p class="section-subtitle">Browse through my creative work and design projects</p>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="brand">Brand Identity</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+                <button class="filter-btn" data-filter="print">Print & Packaging</button>
+            </div>
+
+            <div class="gallery" id="gallery">
+                <!-- Images will be loaded dynamically from the asmaa image folder -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's work together to bring your creative vision to life</p>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+201204643805">+20 120 464 3805</a></p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:asmaasabik081@gmail.com">asmaasabik081@gmail.com</a></p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>10th of Ramadan City<br>Sharqia, Egypt</p>
+                </div>
+            </div>
+            <div class="social-links-large">
+                <a href="https://linkedin.com/in/asmaa-sabik" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/asmaasabik" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Asmaa El-Sayed. All rights reserved.</p>
+            <p>Designed with <i class="fas fa-heart"></i> by Asmaa El-Sayed</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption"></div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
